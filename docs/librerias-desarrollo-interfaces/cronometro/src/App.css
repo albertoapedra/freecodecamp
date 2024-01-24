@@ -1,0 +1,242 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  height: 100vh;
+  align-items: center;
+}
+.bloque-cronometro {
+  width: min(27rem, 72vw);
+  min-height: min(450px);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cronometro {
+  background-color: #181818;
+  width: min(23rem, 63vw);
+  height: min(23rem, 63vw);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: -144px;
+}
+.botonera-arriba {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+  z-index: 1;
+}
+.grupo-boton-izquierda {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  
+}
+.titulo-tiempo {
+  display: flex;
+  align-items: center;
+  width: min(4.5rem, 18vw);
+  height: min(4.5rem, 18vw);
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #181818;
+  text-align: center;
+  margin-bottom: -99px;
+  padding: 1em;
+  flex-direction: column;
+  color: white;
+}
+.titulo-tiempo h4{
+  margin: 0 0 0.25em 0;
+  color: aliceblue;
+}
+
+.botones-break {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.grupo-boton-izquierda .botones-break :first-child {
+  margin-top: 105px;
+  margin-bottom: 0;
+}
+
+.grupo-boton-derecha {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.grupo-boton-derecha .botones-break :last-child {
+  margin-top: 105px;
+  margin-bottom: 0;
+}
+.botonera-abajo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 72%;
+  margin-top: -3.6em;
+}
+.boton-redondo{
+  background-color: #003238;
+  width: min(54px, 5vw);
+  height: min(54px, 5vw);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 3px solid #000;
+  font-size: 5vh;
+  padding-bottom: 0.1em;
+  color: aliceblue;
+}
+.botonera-abajo .boton-redondo{
+  background-color: #003238;
+  width: min(6.3rem, 18vw);
+  height: min(6.3rem, 18vw);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 3px solid #000;
+  font-size: 1vw;
+  padding-bottom: 0.1em;
+}
+.boton-redondo span{
+  position: absolute;
+  font-weight: bold;
+}
+.aumento {
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+.contador {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contador h6 {
+  font-size: 2.7em;
+  margin: 0;
+}
+.contador h2 {
+  font-size: 6.3em;
+  margin: 0;
+}
+
+@media (max-width: 720px) {
+  .bloque-cronometro {
+    width: min(90vw);
+    min-height: min(360px, 90vh);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .cronometro {
+    width: min(81vw);
+    height: min(81vw);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -15vh;
+  }
+  .grupo-boton-izquierda {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+  }
+  .grupo-boton-derecha {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .titulo-tiempo {
+    display: flex;
+    align-items: center;
+    width: min(5.94rem, 16vw);
+    height: min(5.94rem, 16vw);
+    justify-content: center;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: -10vh;
+  }
+  .botones-break {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .grupo-boton-izquierda .botones-break :first-child {
+    margin-top: 11vh;
+    margin-bottom: 0;
+  }
+
+  
+  .grupo-boton-derecha .botones-break :last-child {
+    margin-top: 11vh;
+    margin-bottom: 0;
+  }
+  .aumento {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+  }
+  .titulo-tiempo h4{
+    margin: 0 0 0.25em 0;
+    font-size: 1.71vh;
+    
+  }
+  .boton-redondo{
+    width: min(3.6rem, 13vw);
+    height: min(3.6rem, 13vw);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 3px solid #000;
+    font-size: 9vw;
+    padding-bottom: 0.1em;
+  }
+
+  .botonera-abajo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 72%;
+    margin-top: -2.7em;
+  }
+  .botonera-abajo .boton-redondo{
+    font-size: 4vw;
+
+  }
+  .contador h2 {
+    font-size: 4.5em;
+    margin: 0;
+  }
+}

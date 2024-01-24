@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/freecodecamp/librerias-desarrollo-interfaces/cronometro/build/static/css/main.b1fd3109.css",
+    "main.js": "/freecodecamp/librerias-desarrollo-interfaces/cronometro/build/static/js/main.ad8cda2f.js",
+    "static/js/787.50378447.chunk.js": "/freecodecamp/librerias-desarrollo-interfaces/cronometro/build/static/js/787.50378447.chunk.js",
+    "index.html": "/freecodecamp/librerias-desarrollo-interfaces/cronometro/build/index.html",
+    "main.b1fd3109.css.map": "/freecodecamp/librerias-desarrollo-interfaces/cronometro/build/static/css/main.b1fd3109.css.map",
+    "main.ad8cda2f.js.map": "/freecodecamp/librerias-desarrollo-interfaces/cronometro/build/static/js/main.ad8cda2f.js.map",
+    "787.50378447.chunk.js.map": "/freecodecamp/librerias-desarrollo-interfaces/cronometro/build/static/js/787.50378447.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1fd3109.css",
+    "static/js/main.ad8cda2f.js"
+  ]
+}
