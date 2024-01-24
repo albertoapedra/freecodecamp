@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/freecodecamp/librerias-desarrollo-interfaces/frasealeatoria/build/static/css/main.b93fc9a7.css",
+    "main.js": "/freecodecamp/librerias-desarrollo-interfaces/frasealeatoria/build/static/js/main.a6755c07.js",
+    "static/js/787.378d0b1a.chunk.js": "/freecodecamp/librerias-desarrollo-interfaces/frasealeatoria/build/static/js/787.378d0b1a.chunk.js",
+    "index.html": "/freecodecamp/librerias-desarrollo-interfaces/frasealeatoria/build/index.html",
+    "main.b93fc9a7.css.map": "/freecodecamp/librerias-desarrollo-interfaces/frasealeatoria/build/static/css/main.b93fc9a7.css.map",
+    "main.a6755c07.js.map": "/freecodecamp/librerias-desarrollo-interfaces/frasealeatoria/build/static/js/main.a6755c07.js.map",
+    "787.378d0b1a.chunk.js.map": "/freecodecamp/librerias-desarrollo-interfaces/frasealeatoria/build/static/js/787.378d0b1a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b93fc9a7.css",
+    "static/js/main.a6755c07.js"
+  ]
+}

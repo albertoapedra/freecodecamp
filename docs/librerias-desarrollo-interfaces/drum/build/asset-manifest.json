@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/freecodecamp/librerias-desarrollo-interfaces/drum/build/static/css/main.c48d91fd.css",
+    "main.js": "/freecodecamp/librerias-desarrollo-interfaces/drum/build/static/js/main.148c4516.js",
+    "static/js/787.da2c99aa.chunk.js": "/freecodecamp/librerias-desarrollo-interfaces/drum/build/static/js/787.da2c99aa.chunk.js",
+    "index.html": "/freecodecamp/librerias-desarrollo-interfaces/drum/build/index.html",
+    "main.c48d91fd.css.map": "/freecodecamp/librerias-desarrollo-interfaces/drum/build/static/css/main.c48d91fd.css.map",
+    "main.148c4516.js.map": "/freecodecamp/librerias-desarrollo-interfaces/drum/build/static/js/main.148c4516.js.map",
+    "787.da2c99aa.chunk.js.map": "/freecodecamp/librerias-desarrollo-interfaces/drum/build/static/js/787.da2c99aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c48d91fd.css",
+    "static/js/main.148c4516.js"
+  ]
+}

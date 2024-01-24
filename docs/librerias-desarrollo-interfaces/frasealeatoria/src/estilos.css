@@ -1,0 +1,111 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+#root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  width: min(27rem, 95vw);
+  height: min(27rem, 95vw);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#quote-box #text {
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: min(1.35em, 5vw);
+  text-align: center;
+  padding: 1.8em;
+}
+#quote-box #author {
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2em;
+}
+#quote-box #botones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.45em;
+}
+#quote-box #botones a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 3.6em;
+  height: 3.6em;
+  margin: 0.5em;
+}
+#quote-box #botones a.redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 2.25em;
+  height: 2.25em;
+}
+#quote-box #botones a.redes i {
+  font-size: 0.99em;
+  color: #000000;
+}
+#quote-box #botones button {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 3.6em;
+  height: 3.6em;
+  margin: 0.5em;
+  border: none;
+  cursor: pointer;
+  pointer-events: all;
+}
+#quote-box #botones button span.signos {
+  font-size: 1.35em;
+}
