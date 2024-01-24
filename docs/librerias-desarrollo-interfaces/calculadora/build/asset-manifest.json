@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/freecodecamp/librerias-desarrollo-interfaces/calculadora/build/static/css/main.15f9849d.css",
+    "main.js": "/freecodecamp/librerias-desarrollo-interfaces/calculadora/build/static/js/main.7909724f.js",
+    "static/js/787.a0d8d0d4.chunk.js": "/freecodecamp/librerias-desarrollo-interfaces/calculadora/build/static/js/787.a0d8d0d4.chunk.js",
+    "index.html": "/freecodecamp/librerias-desarrollo-interfaces/calculadora/build/index.html",
+    "main.15f9849d.css.map": "/freecodecamp/librerias-desarrollo-interfaces/calculadora/build/static/css/main.15f9849d.css.map",
+    "main.7909724f.js.map": "/freecodecamp/librerias-desarrollo-interfaces/calculadora/build/static/js/main.7909724f.js.map",
+    "787.a0d8d0d4.chunk.js.map": "/freecodecamp/librerias-desarrollo-interfaces/calculadora/build/static/js/787.a0d8d0d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15f9849d.css",
+    "static/js/main.7909724f.js"
+  ]
+}
