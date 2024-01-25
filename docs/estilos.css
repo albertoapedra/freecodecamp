@@ -1,0 +1,15 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    padding: 1em;
+
+}
+a:hover {
+    opacity: 0.45;
+}
+li {
+    margin: 1em;
+}
