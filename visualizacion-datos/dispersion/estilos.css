@@ -1,0 +1,55 @@
+body {
+  background-color: #c8beb7ff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#title h1, h3 {
+  text-align: center;
+  color: #111;
+}
+
+.datoscaja {
+  position: relative;
+  z-index: 0;
+  margin-top: -99px;
+}
+
+.fondobarras {
+  width: 1044px;
+  height: 550px;
+  margin: auto;
+  background: #000;
+  border: solid white 5px;
+}
+
+#tooltip {
+  width: 450px;
+  height: 90px;
+  background: #181818;
+  position: relative;
+  opacity: 0;
+  padding-left: 0.81em;
+  padding-top: 0.81em;
+  border: solid white 1px;
+  font-size: 0.81em;
+}
+
+#tooltip span {
+  color: white;
+}
+
+.dot {
+  border: 0px;
+}
+
+.dot:hover {
+  fill: white !important;
+}
+
+#legend {
+  width: 243px;
+  position: relative;
+  top: -550px;
+  left: 792px;
+  font-size: 0.81em;
+}

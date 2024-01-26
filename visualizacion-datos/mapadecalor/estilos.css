@@ -1,0 +1,54 @@
+body {
+  background-color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1, h3 {
+  text-align: center;
+  color: #111;
+}
+
+.datoscaja {
+  position: relative;
+  z-index: 0;
+  margin-top: -99px;
+}
+
+.fondobarras {
+  width: 1244px;
+  height: 550px;
+  margin: auto;
+  background: #fff;
+}
+
+#tooltip {
+  width: 180px;
+  height: 90px;
+  position: relative;
+  opacity: 0;
+  padding-left: 0.81em;
+  padding-top: 0.81em;
+  border: solid white 1px;
+  font-size: 0.81em;
+  font-weight: bold;
+}
+
+#tooltip span {
+  color: white;
+  background-color: #000;
+}
+
+.cell {
+  border: 0px;
+}
+
+.cell:hover {
+  fill: grey !important;
+}
+
+#legend {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 0.81em;
+}

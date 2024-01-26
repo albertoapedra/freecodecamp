@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(83, 103, 108);
+  font-family: sans-serif;
+}
+
+#title h1 {
+  text-align: center;
+  color: white;
+}
+
+.fondobarras {
+  width: 1000px;
+  height: 550px;
+  margin: auto;
+  background: linear-gradient(180deg, rgb(2, 0, 36) 0%, rgb(255, 255, 255) 0%, rgb(83, 103, 108) 100%);
+  border-top: solid #43565cff 5px;
+  border-left: solid white 3px;
+  border-right: solid white 3px;
+}
+
+#tooltip {
+  width: 180px;
+  height: 90px;
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(255, 255, 255) 0%, rgb(83, 103, 108) 100%);
+  position: relative;
+  opacity: 0;
+  padding-left: 1em;
+  padding-top: 1em;
+  border: solid white 2px;
+}
+#tooltip span {
+  color: white;
+}
+
+.bar {
+  fill: #43565cff;
+  border: 0px;
+}
+
+.bar:hover {
+  fill: white !important;
+}

@@ -1,0 +1,35 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contenedor {
+  width: 1008px;
+  margin: auto;
+}
+
+h1, h3 {
+  text-align: center;
+  color: #111;
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+#tooltip {
+  width: 180px;
+  height: 90px;
+  position: absolute;
+  opacity: 0;
+  padding-left: 0.81em;
+  padding-top: 0.81em;
+  border: solid white 1px;
+  font-size: 0.81em;
+  font-weight: bold;
+}
+
+#legend a {
+  fill: #023e57ff;
+}
